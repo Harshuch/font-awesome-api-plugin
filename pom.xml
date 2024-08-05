@@ -94,6 +94,12 @@
   <build>
     <plugins>
       <plugin>
+                <groupId>org.jenkins-ci.tools</groupId>
+                <artifactId>maven-hpi-plugin</artifactId>
+                <version>3.17</version> <!-- Use the latest stable version -->
+                <extensions>true</extensions>
+            </plugin>
+      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-clean-plugin</artifactId>
         <configuration>
